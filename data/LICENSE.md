@@ -1,7 +1,7 @@
 # Licenses of the files in `data/`
 
-The files in this folder are **not** covered by the root `LICENSE` ("All
-rights reserved"). Each file keeps the license of the work it comes from, as
+The files in this folder are **not** covered by the Shizi app's own license
+("All rights reserved"). Each file keeps the license of the work it comes from, as
 listed below. Shizi adds no further restriction to the rights these licenses
 give you; the App Store terms and Shizi's own terms of use do not limit them
 either.
@@ -15,9 +15,9 @@ either.
 | `data/𬇕.json` | Outline derived from [LXGW WenKai GB](https://github.com/lxgw/LxgwWenkaiGB) 1.522 (Copyright 2022-2026 LXGW; Copyright 2020 The Klee Project Authors), split into strokes by hand with the Make Me a Hanzi tooling | SIL Open Font License 1.1 — `licenses/LXGW-WenKai-GB-OFL.txt` | Yes (outline converted to stroke data); not sold on its own |
 
 Under the Arphic Public License §2, modified files are made freely available
-to everyone under the same license: this folder in the public repository
-https://github.com/Eim-aa/shizi-open is that place, and each release of the
-Shizi app has a matching git tag here so the exact files of a release stay
+to everyone under the same license: the `data/` folder of the public
+repository https://github.com/Eim-aa/shizi-open is that place, and each App
+release has a matching git tag there so the exact files of a release stay
 available.
 
 76 records from sources without a redistribution basis (strokeorder.cc,
@@ -36,8 +36,3 @@ Taiwan MOE stroke-order site, STKaiti outlines) were removed on 2026-10-04
   any later version — `licenses/LGPL-3.0.txt`, which incorporates
   `licenses/GPL-3.0.txt`. This file is itself the preferred form for
   modifying these records.
-
-## Context-word overrides: `data/context-overrides.js`
-
-Project-authored content (reviewed context words, readings and hints); covered
-by the root `LICENSE`.
